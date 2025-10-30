@@ -1,0 +1,6 @@
+@MonthlyPremium_HostAddress = http://localhost:5132
+
+GET {{MonthlyPremium_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
