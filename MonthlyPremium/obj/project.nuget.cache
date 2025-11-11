@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "d5hza16P2Go=",
+  "success": true,
+  "projectFilePath": "C:\\Dhana\\Mine\\My_Project\\Monthly-Premium-Calculator\\MonthlyPremium\\MonthlyPremium.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MOHANRAJDH\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\MOHANRAJDH\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MOHANRAJDH\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\MOHANRAJDH\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\MOHANRAJDH\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\MOHANRAJDH\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/AGYS-VisualOne/_packaging/Libraries-v1/nuget/v3/index.json."
+    }
+  ]
+}
