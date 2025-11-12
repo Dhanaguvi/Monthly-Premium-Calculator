@@ -1,0 +1,27 @@
+<div class="card p-4 shadow-lg">
+  <h2>Monthly Premium Calculator</h2>
+
+  <label>Name:</label>
+  <input type="text" [(ngModel)]="name" class="form-control" />
+
+  <label>Age Next Birthday:</label>
+  <input type="number" [(ngModel)]="ageNextBirthday" class="form-control" />
+  <label>Usual Occupation:</label>
+  <select [(ngModel)]="occupation" class="form-control">
+    <option value="">-- Select Occupation --</option>
+    <option *ngFor="let occ of occupations" [value]="occ.occupationName">{{ occ.occupationName }}</option>
+  </select>
+
+  <label>Death – Sum Insured:</label>
+  <input type="number" [(ngModel)]="deathSumInsured" class="form-control" />
+
+  <button class="btn btn-primary mt-3" (click)="calculatePremium()">Calculate</button>
+
+  <div *ngIf="premiumResult" class="mt-4">
+    <h3>Result:</h3>
+    <p><b>Name:</b> {{ premiumResult.name }}</p>
+    <p><b>Occupation:</b> {{ premiumResult.occupation }}</p>
+    <p><b>Rating:</b> {{ premiumResult.rating }}</p>
+    <p><b>Monthly Premium:</b> ₹{{ premiumResult.monthlyPremium | number:'1.2-2' }}</p>
+  </div>
+</div>

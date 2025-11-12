@@ -1,0 +1,25 @@
+# Angular build output
+dist/
+.tmp/
+
+# Node modules
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Angular cache
+.angular/cache/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+src/environments/*.ts
+
+# System files
+.DS_Store
+Thumbs.db

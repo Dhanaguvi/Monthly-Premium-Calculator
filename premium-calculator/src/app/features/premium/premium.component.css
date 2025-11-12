@@ -1,0 +1,35 @@
+.container {
+width: 90%;
+max-width: 360px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  width: 90%;
+  max-width: 360px;
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+input, select {
+  width: 90%;
+  max-width: 360px;
+  padding: 6px;
+  margin-top: 4px;
+}
+
+button{
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e8f5e9;
+  border-left: 4px solid #4caf50;
+}
